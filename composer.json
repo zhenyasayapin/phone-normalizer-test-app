@@ -1,0 +1,17 @@
+{
+    "name": "zhenyasayapin/phone-normalizer-test-app",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zhenya Sayapin",
+            "email": "ep.sayapin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.4"
+    }
+}
