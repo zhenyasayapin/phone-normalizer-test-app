@@ -10,7 +10,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 $phones = require_once __DIR__ . '/input.php';
 
 $normalizer = new PhoneNormalizer(
-        new PhoneSanitizer(),
+    new PhoneSanitizer(),
     new PhoneValidator(),
     new PhoneMask()
 );
